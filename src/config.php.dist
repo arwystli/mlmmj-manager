@@ -1,0 +1,17 @@
+<?php
+/**
+ * @author Bob Hutchinson <arwystli@gmail.com>
+ * @copyright GNU GPL
+ *
+ */
+
+// where the mlmmj lists are
+$listdir = "/var/spool/mlmmj";
+// where the mlmmj executables are
+$cmddir = "/usr/local/bin/";
+// if you are running this program under a directory below the document root, enter that here, eg "/mlmmj-manager/"
+$sitepath = "/mlmmj-manager/";
+$dt = date('Y');
+$copyright = "Copyright - $dt | Arwystli Networks";
+// empty this on production
+$devel_status = "<hr>Development";

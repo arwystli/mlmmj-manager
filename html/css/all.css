@@ -1,0 +1,81 @@
+.footer-container {
+  text-align: center;
+}
+.row-grid {
+  margin-bottom: 0px;
+  padding: 6px;
+}
+.col-sublist {
+  height: 258px;
+  overflow-y: scroll;
+}
+.odd {
+  background-color: #F8F8F8;
+}
+.even {
+  background-color: #F0F0F0;
+}
+.col-ml-list {
+  height: 258px;
+/*  overflow-y: scroll;*/
+ max-width: 100%;
+
+}
+@media only screen and (max-width: 760px) {
+  .col-sublist {
+    /* border: 1px solid red; */
+    max-width: 100%;
+  }
+/*
+  .col-sublist-form {
+    max-width: 90%;
+  }
+*/
+/*
+  .subhead {
+   display: block;
+  }
+  .subhead div {
+    max-width: 100%;
+  }
+*/
+}
+
+@media only screen and (max-width: 513px) {
+  /* place sublist above textarea form */
+  .sublist {
+    display: block;
+  }
+  .col-sublist {
+    max-width: 100%;
+  }
+  .col-sublist-form {
+    max-width: 100%;
+  }
+
+  .subhead {
+    display: block;
+  }
+  .subhead div {
+    max-width: 100%;
+  }
+  .subbtn button {
+    font-size: 12px;
+  }
+  .confhead {
+    display: block;
+  }
+  .confhead div {
+    max-width: 100%;
+  }
+  .confbtn button {
+    font-size: 12px;
+  }
+
+  .col-ml-list, .col-ml-list a {
+    display: block;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+}
